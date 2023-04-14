@@ -1432,7 +1432,7 @@ input::-moz-focus-inner {
 
 @media only screen and (max-width: 800px) {
   .display-1 {
-    font-size: 6.5rem;
+    font-size: 6.5rem !important;
   }
   .display-2 {
     font-size: 4rem;
@@ -1445,7 +1445,7 @@ input::-moz-focus-inner {
 
 @media only screen and (max-width: 600px) {
   .display-1 {
-    font-size: 5rem;
+    font-size: 5rem !important;
   }
   .display-2 {
     font-size: 3.3rem;
@@ -1458,7 +1458,7 @@ input::-moz-focus-inner {
     font-size: 30px;
   }
   h2 {
-    font-size: 20px;
+    font-size: 20px !important;
   }
 }
 
@@ -1539,6 +1539,13 @@ input::-moz-focus-inner {
   }
   .section-header.has-bottom-sep::before {
     width: 250px;
+  }
+  
+  .btngrouping{
+    display: inline !important;
+  }
+  div.btngrouping + br{
+    display: none;
   }
 }
 
@@ -2509,9 +2516,9 @@ html.no-csstransitions .home-content__main {
     padding-top: 3rem;
     padding-bottom: 3.9rem;
   }
-  .about-stats {
+  /* .about-stats {
     max-width: 800px;
-  }
+  } */
   .stats__col {
     margin: 1.5rem 0;
   }
@@ -2697,7 +2704,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 600px) {
   .s-services {
-    padding-top: 12rem;
+    /* padding-top:12rem; */
   }
   .services-list .service-item:nth-child(n) {
     padding-right: 10px;
@@ -3837,11 +3844,9 @@ html.no-csstransitions .home-content__main {
     margin-top: -1.5rem;
     margin-bottom: 7.2rem;
   }
-  .contact-primary h2 {
+  .contact-primary h2,.contact-secondary h2 {
     font-size: 25px;
-  }
-  .contact-secondary h2 {
-    font-size: 25px;
+    text-align: center;
   }
   .contact-secondary .hide-on-fullwidth {
     display: none;

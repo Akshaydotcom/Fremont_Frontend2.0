@@ -626,6 +626,9 @@ textarea {
         padding-left: 25px;
         padding-right: 25px;
     }
+    .rowAboutUs{
+        margin: 0 auto;
+    }
     .row .row {
         margin-left: -10px;
         margin-right: -10px;
