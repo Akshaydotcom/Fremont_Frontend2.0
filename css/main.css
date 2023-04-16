@@ -849,7 +849,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: #39b54a;
+  -webkit-text-fill-color: #1c1c1c;
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -1409,13 +1409,16 @@ input::-moz-focus-inner {
 
 .s-clients h2 {
   margin-top: 2rem;
-  width: 60%;
+  width: 55%;
   display: inline-block;
   text-align: center;
 }
 
 .display-AboutUs {
   font-size: 50px;
+}
+.showButton{
+  display: none !important;
 }
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -1432,7 +1435,7 @@ input::-moz-focus-inner {
 
 @media only screen and (max-width: 800px) {
   .display-1 {
-    font-size: 6.5rem !important;
+    font-size: 6.5rem;
   }
   .display-2 {
     font-size: 4rem;
@@ -1445,7 +1448,7 @@ input::-moz-focus-inner {
 
 @media only screen and (max-width: 600px) {
   .display-1 {
-    font-size: 5rem !important;
+    font-size: 5rem;
   }
   .display-2 {
     font-size: 3.3rem;
@@ -1459,6 +1462,15 @@ input::-moz-focus-inner {
   }
   h2 {
     font-size: 20px !important;
+  }
+  .hideTable{
+    display: none;
+  }
+  .showButton{
+    display: block !important;
+  }
+  #the__table{
+    width:67% !important;
   }
 }
 
@@ -1526,7 +1538,7 @@ input::-moz-focus-inner {
 
 @media only screen and (max-width: 800px) {
   .s-clients {
-    padding-bottom: 17.4rem;
+    /* padding-bottom: 17.4rem; */
   }
   .section-header.has-bottom-sep::before {
     width: 400px;
@@ -2997,7 +3009,7 @@ html.no-csstransitions .home-content__main {
 }
 .form__child {
   width: 100%;
-  background-color: #e6e6e6;
+  background-color: #ecebeb;
   text-align: center;
   padding-top: 2rem;
   overflow: auto;
@@ -3012,6 +3024,7 @@ html.no-csstransitions .home-content__main {
 .form__child1 {
   width: 47%;
   float: left;
+  padding-left:10%;
 }
 .form__child__element {
   display: flex;
@@ -3059,13 +3072,19 @@ html.no-csstransitions .home-content__main {
   float: right;
   display: flex;
   justify-content: center;
+  padding-right:10%
+}
+.form__child2 .form__child__element{
+  padding-left:10%;
 }
 @media only screen and (max-width: 1000px) {
   .form__child1 {
     width: 100%;
+    padding-left:0%
   }
   .form__child2 {
     width: 100%;
+    padding-right:0%
   }
 }
 @media only screen and (max-width: 1550px) {
@@ -3134,7 +3153,7 @@ html.no-csstransitions .home-content__main {
 }
 .table__parent {
   width: 100% !important;
-  background-color: #e6e6e6;
+  background-color: #ecebeb;
   display: flex;
   padding: 0;
   justify-content: center;
@@ -3194,6 +3213,7 @@ html.no-csstransitions .home-content__main {
 }
 .td2 {
   background-color: white;
+  border-color: #d3d3d2;
   width: 60%;
   padding-left: 10px;
   height: 50px;
@@ -4278,7 +4298,7 @@ footer .row {
 
 @media only screen and (max-width: 800px) {
   .contact-Us {
-    margin-left: 25%!important;
+    margin-left: 0%!important;
   } 
 }
 /*# sourceMappingURL=main.css.map */

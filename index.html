@@ -269,7 +269,7 @@
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full" style="margin-bottom: 2rem;">    
                 <!-- <h3 class="subhead">What We Do</h3> -->
-                <h1 class="display-1 display-2 ">About Us
+                <h1 class="display-1">About Us
                 </h1> 
                 
             </div>
@@ -720,7 +720,7 @@
             <div class="form__child">
 
 
-
+                
                 <div class="form__child1">
                     <div class="form__child__element">
 
@@ -786,7 +786,7 @@
                                 </svg> -->
                             </div>
                             <div class="form__child__element__text2">
-                                <h2>FILL IN WITH YOUR INFORMATION <br> AND LET'S FIND OUT! </h2>
+                                <h2>FILL IN YOUR INFORMATION <br> AND LET'S FIND OUT! </h2>
                                 <!-- <p>We help companies strengthen their strategy-development processes, make better decisions, and implement their strategy. We assist with solutions to specific strategy issues or help design a whole new approach to strategic positioning and strategy implementation.
                             </p> -->
 
@@ -877,10 +877,10 @@
                     </form>
 
                 </div>
-
+                
                 <div class="table__parent">
                     <div id="the__table"
-                        style="display:none;text-align:center;width:75%;padding:0 !important;margin: 0 !important; overflow:auto;">
+                        style="display:none;text-align:center;width:55%;padding:0 !important;margin: 0 !important; overflow:auto;">
                         <div class="form__child">
 
                             <!-- <div class="table__contents__element1" > -->
@@ -923,7 +923,7 @@
 
 
                             <div class="view__table">
-                                <table class="fold-table">
+                                <table class="fold-table hideTable">
 
                                     <tbody>
                                         <tr class="view">
@@ -3452,14 +3452,14 @@
                                                         </tbody>
                                                     </table>
                                         </tr>
-                                        <!-- <tr class="view__full">
+                                        <!-- <tr class="view__full" id="button__view__full" onclick="openNewTab()">
                                             <th height="41" width="23" style="height:31.0pt;border-top:none;
                                             width:17pt"> <span style="padding-left: 20px;"> VIEW FULL REPORT </span>
                                             </th>
                                         </tr> -->
                                     </tbody>
                                 </table>
-
+                                <input type="button" class="showButton" value="Download Full Report" id="" onclick="openNewTab()" ></input>
                             </div>
         
                         </div>
@@ -3469,7 +3469,7 @@
                 </div>
 
                 <div class="contactUsModule">
-                    <hr style="width:50%; margin-left:25% !important; margin-right:25% !important; margin-bottom: 0%;">
+                    <hr style="width:33%; margin-left:33% !important; margin-right:25% !important; margin-bottom: 20px; border: 1px solid #1c1c1c">
                     <p class="help__text helpText"> <span> WOULD YOU LIKE TO KNOW MORE ABOUT THIS TOOL?
 
                         </span></p>
@@ -3835,7 +3835,14 @@ est. Maiores voluptas ab sit natus veritatis ut. <br/>
     <script src="js/main.js"></script>
     <script src="js/calculations.js"></script>
     <script src="js/table.js"></script>
-
+    <script>
+        function openNewTab(){
+            var win=window.open()
+            var html=document.getElementsByClassName("view__table")[0].innerHTML;
+            win.document.write("<html><head></head><body>")
+            win.document.body.innerHTML=html;
+        }
+    </script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
 
 

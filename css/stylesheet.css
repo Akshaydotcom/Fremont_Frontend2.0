@@ -34,7 +34,7 @@ table {
 }
 table th {
   text-align: left;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 3px solid #ccc;
 }
 table th,
 table td {
