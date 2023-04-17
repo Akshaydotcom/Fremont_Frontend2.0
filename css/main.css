@@ -1444,6 +1444,18 @@ input::-moz-focus-inner {
     font-family: "montserrat", sans-serif;
     font-size: 30px;
   }
+  .hideTable,.form__child__element p span{
+    display: none;
+  }
+  .showButton{
+    display: flex !important;
+    margin: 0 auto !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .view__table{
+    background-color: #ecebeb !important;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -1463,7 +1475,7 @@ input::-moz-focus-inner {
   h2 {
     font-size: 20px !important;
   }
-  .hideTable{
+  .hideTable,.form__child__element p span{
     display: none;
   }
   .showButton{
@@ -1554,7 +1566,7 @@ input::-moz-focus-inner {
   }
   
   .btngrouping{
-    display: inline-block !important;
+    display: block !important;
     margin-left:0;
   }
   div.btngrouping + br{
@@ -2392,7 +2404,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 500px) {
   .s-home {
-    min-height: 642px;
+    min-height: 530px;
   }
   .home-content h1 {
     font-size: 3.5rem;
@@ -2619,6 +2631,7 @@ html.no-csstransitions .home-content__main {
   background-color: #ffffff;
   color: #757575;
   position: relative;
+  margin-top:-2px;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2966,7 +2979,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 600px) {
   .s-works {
-    padding-bottom: 12rem;
+    padding-bottom: 0;
   }
   .s-works .intro-wrap {
     padding: 12rem 0 25.2rem;
@@ -2997,6 +3010,7 @@ html.no-csstransitions .home-content__main {
   position: relative;
   text-align: center;
   /* height: 780px; */
+  margin-top:-2px;
 }
 .s-clients2 {
   padding: 5rem 0 22.2rem;
@@ -3866,7 +3880,7 @@ html.no-csstransitions .home-content__main {
     margin-bottom: 7.2rem;
   }
   .contact-primary h2,.contact-secondary h2 {
-    font-size: 25px;
+    font-size: 45px;
     text-align: center;
   }
   .contact-secondary .hide-on-fullwidth {
@@ -4300,6 +4314,10 @@ footer .row {
 @media only screen and (max-width: 800px) {
   .contact-Us {
     margin-left: 24%;
+  }
+  .cinfo a,.contact-secondary a, .contact-secondary h5{
+    display: flex;
+    justify-content: center;
   } 
 }
 /*# sourceMappingURL=main.css.map */
