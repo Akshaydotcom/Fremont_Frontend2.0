@@ -1564,10 +1564,16 @@ input::-moz-focus-inner {
   .section-header.has-bottom-sep::before {
     width: 250px;
   }
-  
+  .hidebr{
+    display: none;
+  }
   .btngrouping{
-    display: block !important;
+    display: grid !important;
+    grid-template-columns: 25% 75%;
     margin-left:0;
+  }
+  .business-btns label{
+    margin-left:25px !important;
   }
   div.btngrouping + br{
     display: none;
@@ -3106,7 +3112,7 @@ html.no-csstransitions .home-content__main {
   .form__child__element__icon {
     width: 100%;
     justify-content: center;
-    padding-bottom: 2rem;
+    padding-bottom: 0px;
   }
   .form__child2 .wrapper {
     margin-left: 0 !important;
@@ -3120,8 +3126,14 @@ html.no-csstransitions .home-content__main {
     margin: 0;
     padding-top: 0;
     padding-bottom: 1rem;
+    padding-left:0px;
   }
-
+  .form__child .form__child1 h2{
+    text-align: left !important;
+  }
+  .form__child__element__text3 h2{
+    padding-top: 25px !important;
+  }
   #animation--container {
     width: 400px;
     height: 400px;
@@ -3144,8 +3156,9 @@ html.no-csstransitions .home-content__main {
   padding-left: 15px;
   font-size: 1.7rem;
   align-items: center;
-  text-align: left;
+  text-align: left !important;
   font-weight: bold;
+  margin-left: 22.8% !important;
 }
 .form__child__element__text3 h2 {
   width: 100%;
@@ -3173,6 +3186,13 @@ html.no-csstransitions .home-content__main {
   padding: 0;
   justify-content: center;
   overflow: auto !important;
+}
+.table__parent .form__child1{
+  padding-left: 0px;
+}
+.table__parent .form__child__element{
+  justify-content: left;
+  padding-left: 6%;
 }
 /* 
 #the__table{
@@ -3223,6 +3243,10 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 900px) {
   .td1 {
     margin: 0;
+    text-align: center !important;
+  }
+  .form__child__element__text2 h2{
+    margin: 0 !important;
     text-align: center !important;
   }
 }
@@ -3420,7 +3444,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 600px) {
   .s-clients {
-    padding-top: 12rem;
+    padding-top: 6rem;
   }
   .clients-testimonials::before {
     width: 250px;
@@ -4057,8 +4081,17 @@ footer .row {
   label {
     font-size: 1rem;
   }
+  .inputWrapper label{
+    text-align: left;
+    margin-left:34%
+  }
   .footer-subscribe {
     padding-top: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .inputWrapper label{
+    margin-left:12%
   }
 }
 @media only screen and (max-width: 800px) {
