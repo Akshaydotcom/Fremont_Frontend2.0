@@ -1418,7 +1418,7 @@ input::-moz-focus-inner {
   font-size: 50px;
 }
 .showButton{
-  display: none !important;
+  /* display: none !important; */
 }
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -1456,6 +1456,9 @@ input::-moz-focus-inner {
   .view__table{
     background-color: #ecebeb !important;
   }
+  #the__table{
+    width:73% !important;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -1482,7 +1485,10 @@ input::-moz-focus-inner {
     display: block !important;
   }
   #the__table{
-    width:67% !important;
+    width:84% !important;
+  }
+  .submit_btn{
+    width:initial !important;
   }
 }
 
@@ -1496,6 +1502,9 @@ input::-moz-focus-inner {
   .col-full p {
     font-family: "montserrat", sans-serif;
     font-size: 30px;
+  }
+  .form__child__element__text3 h2{
+    padding-left: 25px !important;
   }
 }
 
@@ -1554,6 +1563,9 @@ input::-moz-focus-inner {
   }*/
   .section-header.has-bottom-sep::before {
     width: 400px;
+  }
+  .hidebr{
+    display: none;
   }
 }
 
