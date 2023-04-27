@@ -1434,6 +1434,9 @@ input::-moz-focus-inner {
 }
 
 @media only screen and (max-width: 800px) {
+  #downloadBtn {
+    width: 82%;
+  } 
   .display-1 {
     font-size: 6.5rem;
   }
