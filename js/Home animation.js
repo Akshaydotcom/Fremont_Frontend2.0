@@ -910,13 +910,13 @@
 
     // Layer_1
     this.instance = new lib.CachedBmp_5();
-    this.instance.setTransform(-3.5, -4.8, 0.3813, 0.3813);
+    this.instance.setTransform(-3.5, -4.75, 0.3813, 0.3813);
 
     this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
     this._renderFirstFrame();
   }).prototype = p = new cjs.MovieClip();
-  p.nominalBounds = new cjs.Rectangle(-3.5, -4.8, 89.2, 30.900000000000002);
+  p.nominalBounds = new cjs.Rectangle(-3.5, -4.7, 89.2, 30.9);
 
   (lib.light02 = function (mode, startPosition, loop, reversed) {
     if (loop == null) {
@@ -5402,10 +5402,10 @@
 
     // HEADER
     this.instance_1 = new lib.CachedBmp_2();
-    this.instance_1.setTransform(270.75, 73.15, 0.5, 0.5);
+    this.instance_1.setTransform(244.45, 56.15, 0.5, 0.5);
 
     this.instance_2 = new lib.CachedBmp_1();
-    this.instance_2.setTransform(176.05, 104.3, 0.5, 0.5);
+    this.instance_2.setTransform(77.05, 82.35, 0.5, 0.5);
 
     this.timeline.addTween(
       cjs.Tween.get({})
@@ -5541,7 +5541,7 @@
 
     this._renderFirstFrame();
   }).prototype = p = new lib.AnMovieClip();
-  p.nominalBounds = new cjs.Rectangle(428.8, 438.2, 421.2, 154.7);
+  p.nominalBounds = new cjs.Rectangle(428.8, 421.2, 421.2, 171.7);
   // library properties:
   lib.properties = {
     id: "3F7B7FC76D434B7FB64DA32DCD5CCA12",
