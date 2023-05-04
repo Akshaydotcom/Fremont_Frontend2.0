@@ -1571,7 +1571,26 @@ input::-moz-focus-inner {
     display: none;
   }
 }
-
+@media only screen and (max-width:400px) {
+  .btngrouping{
+    display: grid !important;
+    grid-template-columns: 10% 80%;
+    margin-left:9% !important;
+  }
+  .btngrouping > input[type="radio"]{
+    width:auto !important;
+  }
+}
+@media only screen and (max-width:500px) {
+  .btngrouping{
+    display: grid !important;
+    grid-template-columns: 10% 80%;
+    margin-left:8% !important;
+  }
+  .btngrouping > input[type="radio"]{
+    width:auto !important;
+  }
+}
 @media only screen and (max-width: 600px) {
   .section-header.has-bottom-sep {
     padding-bottom: 0;
@@ -1584,8 +1603,11 @@ input::-moz-focus-inner {
   }
   .btngrouping{
     display: grid !important;
-    grid-template-columns: 20% 80%;
-    margin-left:0 !important;
+    grid-template-columns: 10% 80%;
+    margin-left:8% !important;
+  }
+  .btngrouping > input[type="radio"]{
+    width:auto !important;
   }
   .contact-Us{
     margin-left: 3% !important
@@ -1595,6 +1617,28 @@ input::-moz-focus-inner {
   }
   div.btngrouping + br{
     display: none;
+  }
+}
+
+@media only screen and (max-width:1000px) and (min-width:600px)  {
+  .inputWrapper input{
+    width:55% !important;
+  }
+  .inputWrapper label{
+    margin-left: 23% !important;
+    text-align: left;
+  }
+  .submit_btn{
+    width: 55% !important;
+  }
+  .btnsDirection{
+    margin-left:20% !important;
+  }
+}
+
+@media only screen and (max-width:1200px) and (min-width:1000px) {
+  .btnsDirection{
+    margin-left: 21rem !important;
   }
 }
 
@@ -4109,7 +4153,7 @@ footer .row {
 }
 @media only screen and (max-width: 600px) {
   .inputWrapper label{
-    margin-left:12%
+    margin-left:12% !important
   }
 }
 @media only screen and (max-width: 800px) {
@@ -4325,10 +4369,12 @@ footer .row {
 .inputWrapper label {
   margin-right: 27%;
   font-size: 1.25rem;
+  text-align: left;
+  margin-left: 27%;
 }
 
 .inputWrapper input {
-  width: 32%;
+  width: 45%;
   block-size: 40px;
 }
 
