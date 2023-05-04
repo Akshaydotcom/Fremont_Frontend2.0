@@ -1413,7 +1413,9 @@ input::-moz-focus-inner {
   display: inline-block;
   text-align: center;
 }
-
+.btnsDirection {
+  margin-left: 25%;
+}
 .display-AboutUs {
   font-size: 50px;
 }
@@ -3979,6 +3981,9 @@ html.no-csstransitions .home-content__main {
   .message-success {
     margin-bottom: 6rem;
   }
+  .contact-content {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -4398,7 +4403,7 @@ footer .row {
 }
 .btnsDirection {
   text-align: left;
-  margin-left: 26rem;
+  margin-left: 28%;
 }
 .submit_btn {
   width: 31%;
@@ -4419,5 +4424,8 @@ footer .row {
     display: flex;
     justify-content: center;
   } 
+  .btnsDirection {
+    margin-left: 25%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
