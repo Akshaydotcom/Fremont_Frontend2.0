@@ -4398,7 +4398,8 @@ footer .row {
   font-size: 1.25rem;
   display: flex;
   width: 20px;
-  margin-inline: 38px;
+  margin-left: 38px;
+  margin-right:38px;
   white-space: nowrap;
 }
 .btnsDirection {
