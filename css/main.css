@@ -58,7 +58,7 @@
  * # base style overrides
  *
  * ------------------------------------------------------------------- */
-html {
+ html {
   font-size: 10px;
 }
 
@@ -93,6 +93,7 @@ a {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 
 a:hover,
 a:focus,
@@ -2028,7 +2029,7 @@ input::-moz-focus-inner {
 .s-home {
   width: 100%;
   height: 100%;
-  min-height: 786px;
+  min-height: 393px;
   background-color: #259cf4;
   position: relative;
   display: table;
@@ -2063,7 +2064,7 @@ input::-moz-focus-inner {
   width: 100%;
   height: 100%;
   opacity: 0.6;
-  /* background-color: black; */
+  /* background-color: black; */ 
 }
 /* 
 .no-js .s-home {
@@ -2482,7 +2483,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 500px) {
   .s-home {
-    min-height: 530px;
+    min-height: 265px;
   }
   .home-content h1 {
     font-size: 3.5rem;
@@ -2514,7 +2515,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 400px) {
   .s-home {
-    min-height: 630px;
+    min-height: 215px;
   }
   .home-content h1 {
     font-size: 3.2rem;
