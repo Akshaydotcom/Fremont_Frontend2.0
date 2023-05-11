@@ -458,7 +458,7 @@
         clStatCount();
         clMasonryFolio();
         clSlickSlider();
-        clSmoothScroll();
+        //clSmoothScroll();
         clPlaceholder();
         clAlertBoxes();
         clContactForm();
