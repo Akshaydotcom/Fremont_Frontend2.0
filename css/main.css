@@ -4443,7 +4443,7 @@ footer .row {
 }
 /*# sourceMappingURL=main.css.map */
 
-/* Hide the default radio button */
+/* Hide the default radio button 
 .btngrouping input[type="radio"] {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -4455,7 +4455,7 @@ footer .row {
   border: 1px solid #ccc;
 }
 
-/* Create a custom radio button */
+/* Create a custom radio button 
 .btngrouping input[type="radio"]:before {
   content: "";
   display: block;
@@ -4466,7 +4466,7 @@ footer .row {
   background-color: #fff;
 }
 
-/* Style the radio button when checked */
+/* Style the radio button when checked 
 .btngrouping input[type="radio"]:checked:before {
   background-color: #1c1c1c;
 }
