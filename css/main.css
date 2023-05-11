@@ -4444,28 +4444,29 @@ footer .row {
 /*# sourceMappingURL=main.css.map */
 
 /* Hide the default radio button */
-input[type="radio"] {
+.btngrouping input[type="radio"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   border-radius: 50%;
-  width: 16px;
-  height: 16px;
+  width: 16px !important;
+  height: 16px !important;
+  margin-left: 34px;
   border: 1px solid #ccc;
 }
 
 /* Create a custom radio button */
-input[type="radio"]:before {
+.btngrouping input[type="radio"]:before {
   content: "";
   display: block;
   width: 12px;
   height: 12px;
-  margin: 2px;
+  margin: 1px;
   border-radius: 50%;
   background-color: #fff;
 }
 
 /* Style the radio button when checked */
-input[type="radio"]:checked:before {
-  background-color: #007bff;
+.btngrouping input[type="radio"]:checked:before {
+  background-color: #1c1c1c;
 }
