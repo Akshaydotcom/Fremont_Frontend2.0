@@ -4443,30 +4443,15 @@ footer .row {
 }
 /*# sourceMappingURL=main.css.map */
 
-/* Hide the default radio button 
-.btngrouping input[type="radio"] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border-radius: 50%;
-  width: 16px !important;
-  height: 16px !important;
-  margin-left: 34px;
-  border: 1px solid #ccc;
-}
+/* Safari 10.1+ */
 
-/* Create a custom radio button 
-.btngrouping input[type="radio"]:before {
-  content: "";
-  display: block;
-  width: 12px;
-  height: 12px;
-  margin: 1px;
-  border-radius: 50%;
-  background-color: #fff;
-}
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  ::i-block-chrome,.btngrouping { 
+        margin-left:52px!important;
+      }
 
-/* Style the radio button when checked 
-.btngrouping input[type="radio"]:checked:before {
-  background-color: #1c1c1c;
-}
+  ::i-block-chrome, .business-btns label{
+        margin-left:0px !important;
+      }
+
+  }
