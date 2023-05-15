@@ -1547,6 +1547,11 @@ input::-moz-focus-inner {
   background-color: rgba(255, 255, 255, 0.05);
 }
 
+.btngrouping{
+  display: inline-grid;
+  grid-template-rows: 35px 5px 50px;
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * section-header
@@ -1578,6 +1583,7 @@ input::-moz-focus-inner {
   .btngrouping{
     display: grid !important;
     grid-template-columns: 10% 80%;
+    grid-template-rows: none !important;
     margin-left:9% !important;
   }
   .btngrouping > input[type="radio"]{
@@ -1588,6 +1594,7 @@ input::-moz-focus-inner {
   .btngrouping{
     display: grid !important;
     grid-template-columns: 10% 80%;
+    grid-template-rows: none !important;
     margin-left:8% !important;
   }
   .btngrouping > input[type="radio"]{
@@ -1607,6 +1614,7 @@ input::-moz-focus-inner {
   .btngrouping{
     display: grid !important;
     grid-template-columns: 10% 80%;
+    grid-template-rows: none !important;
     margin-left:8% !important;
   }
   .btngrouping > input[type="radio"]{
@@ -4430,7 +4438,11 @@ footer .row {
     margin-left: 25%;
   }
 }
+*{
+  scroll-behavior: smooth;
+}
 /*# sourceMappingURL=main.css.map */
+
 /* Safari 10.1+ */
 
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
@@ -4443,4 +4455,3 @@ footer .row {
       }
 
   }
-
