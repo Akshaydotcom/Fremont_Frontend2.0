@@ -4431,3 +4431,16 @@ footer .row {
   }
 }
 /*# sourceMappingURL=main.css.map */
+/* Safari 10.1+ */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  ::i-block-chrome,.btngrouping { 
+        margin-left:52px!important;
+      }
+
+  ::i-block-chrome, .business-btns label{
+        margin-left:0px !important;
+      }
+
+  }
+
