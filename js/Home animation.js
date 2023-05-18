@@ -5272,7 +5272,7 @@
       this.locations_01.addEventListener("click", fl_ClickToGoToWebPage_4);
 
       function fl_ClickToGoToWebPage_4() {
-        window.open("https://proximity-fremont.netlify.app/#works", "_blank");
+        window.open("https://proximity-fremont.netlify.app/#works", "_self");
       }
 
       /* Click to Go to Web Page
@@ -5288,7 +5288,7 @@
       function fl_ClickToGoToWebPage_5() {
         window.open(
           "https://proximity-fremont.netlify.app/#services",
-          "_blank"
+          "_self"
         );
       }
 
@@ -5303,7 +5303,7 @@
       this.manufacturing_01.addEventListener("click", fl_ClickToGoToWebPage_6);
 
       function fl_ClickToGoToWebPage_6() {
-        window.open("https://proximity-fremont.netlify.app/#clients", "_blank");
+        window.open("https://proximity-fremont.netlify.app/#clients", "_self");
       }
 
       /* Click to Go to Web Page
@@ -5317,7 +5317,7 @@
       this.talent_01.addEventListener("click", fl_ClickToGoToWebPage_7);
 
       function fl_ClickToGoToWebPage_7() {
-        window.open("https://proximity-fremont.netlify.app/#news", "_blank");
+        window.open("https://proximity-fremont.netlify.app/#news", "_self");
       }
     };
 
