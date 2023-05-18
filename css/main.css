@@ -4445,14 +4445,19 @@ footer .row {
 
 /* Safari 10.1+ */
 
-_::-webkit-full-page-media, _:future, :root .safari_only { 
-  
-  .btngrouping { 
-        margin-left:52px!important;
-      }
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
+  @media (max-width: 1000px){ 
+      .safari6
+      {
+    .btngrouping { 
+          margin-left:52px!important;
+        }
 
-  .business-btns label{
-        margin-left:0px !important;
+    .business-btns label{
+          margin-left:0px !important;
+        }
       }
-
   }
+}
+
+
