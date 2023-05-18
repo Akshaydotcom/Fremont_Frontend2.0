@@ -4445,12 +4445,13 @@ footer .row {
 
 /* Safari 10.1+ */
 
-@media screen and (-webkit-min-device-pixel-ratio:0) { 
-  ::i-block-chrome,.btngrouping { 
+_::-webkit-full-page-media, _:future, :root .safari_only { 
+  
+  .btngrouping { 
         margin-left:52px!important;
       }
 
-  ::i-block-chrome, .business-btns label{
+  .business-btns label{
         margin-left:0px !important;
       }
 
