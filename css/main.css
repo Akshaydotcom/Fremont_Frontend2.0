@@ -4393,7 +4393,7 @@ footer .row {
 }
 
 .btngrouping {
-  display: inline-block;
+  /* display: inline-block; */
   margin-left: 18px;
 }
 .btngrouping > input[type="radio"] {
@@ -4403,7 +4403,7 @@ footer .row {
 .business-btns {
   display: block;
 }
-.business-btns label {
+.btngrouping .businessType {
   font-size: 1.25rem;
   display: flex;
   width: 20px;
@@ -4411,6 +4411,15 @@ footer .row {
   margin-right:38px;
   white-space: nowrap;
 }
+.business-btns label {
+  font-size: 1.25rem;
+  /* display: flex;
+  width: 20px;
+  margin-left: 38px;
+  margin-right:38px; */
+  white-space: nowrap;
+}
+
 .btnsDirection {
   text-align: left;
   margin-left: 28%;
