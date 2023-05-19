@@ -4398,7 +4398,7 @@ footer .row {
 }
 .btngrouping > input[type="radio"] {
   height: 24px;
-  width: 98px;
+  width: 30px;
 }
 .business-btns {
   display: block;
@@ -4407,7 +4407,6 @@ footer .row {
   font-size: 1.25rem;
   display: flex;
   width: 20px;
-  margin-left: 38px;
   margin-right:38px;
   white-space: nowrap;
 }
