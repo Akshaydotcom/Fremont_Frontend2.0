@@ -4348,6 +4348,10 @@ footer .row {
     right: 0;
     bottom: 0;
   }
+  .form_div_mobile{
+    display: block !important;
+    margin-left: 10% !important;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -4410,7 +4414,7 @@ footer .row {
 }
 .btngrouping .businessType {
   font-size: 1.25rem;
-  display: flex;
+  display: block;
   width: 20px;
   margin-right:38px;
   white-space: nowrap;
@@ -4437,7 +4441,7 @@ footer .row {
 .form_div{
   /* text-align: center; */
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 28% 28% 28%;
   /* justify-content: space-evenly; */
   width: 50%;
   margin-left: 32%;
@@ -4446,11 +4450,16 @@ footer .row {
 * # Contact Us Section
 *
 * ------------------------------------------------------------------- */
-
-@media only screen and (max-width: 800px) {
-  .contact-Us {
-    margin-left: 24%;
+@media only screen and (max-width:1000px) and (min-width:800px)  {
+  .form_div{
+    grid-template-columns: 33% 33% 33%;
+    margin-left:20%
   }
+}
+@media only screen and (max-width: 800px) {
+  /* .contact-Us {
+    margin-left: 24%;
+  } */
   .cinfo a,.contact-secondary a, .contact-secondary h5{
     display: flex;
     justify-content: center;
