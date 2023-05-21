@@ -1569,9 +1569,6 @@ input::-moz-focus-inner {
 }
 
 @media only screen and (max-width: 800px) {
-  /*.s-clients {
-    /* padding-bottom: 17.4rem; 
-  }*/
   .section-header.has-bottom-sep::before {
     width: 400px;
   }
@@ -4322,6 +4319,10 @@ footer .row {
   .footer-main .right {
     padding-left: 15px;
   }
+  .form_div_mobile{
+    grid-template-columns: 40% 33% 33% !important;
+    margin-left: 19% !important;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -4362,6 +4363,10 @@ footer .row {
   }
   .footer-subscribe #mc-form label {
     text-align: center;
+  }
+  .form_div_mobile{
+    display: block !important;
+    margin-left: 10% !important;
   }
 }
 
@@ -4428,6 +4433,14 @@ footer .row {
 }
 .contactUS_bottom{
   padding-bottom: 13rem;
+}
+.form_div{
+  /* text-align: center; */
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  /* justify-content: space-evenly; */
+  width: 50%;
+  margin-left: 32%;
 }
 /*********************************************************************
 * # Contact Us Section
